@@ -1,5 +1,8 @@
 package day05;
 
-public class BedAndBreakfast {
 
+//設計民宿
+public class BedAndBreakfast {
+	//服務與餐點
+	
 }
