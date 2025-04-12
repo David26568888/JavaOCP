@@ -13,7 +13,7 @@ public class CarToy {
 		this.name = name;
 		this.battery = battery;
 		this.wheels = wheels;
-
+		//加入輪胎的價格
 		if (wheels != null && wheels.length > 0) {
 			for (Wheel wheel : wheels) {
 				this.price = price + wheel.getPrice();// 每個輪子+車體+電池

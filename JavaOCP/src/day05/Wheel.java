@@ -1,8 +1,8 @@
 package day05;
-
+//車輪
 public class Wheel {
 	private int price;
-	private int size;
+	private int size;//3,5,7
 	
 	public Wheel(int size,int price ) {
 		this.price = price;

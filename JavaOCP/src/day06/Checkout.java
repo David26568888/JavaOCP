@@ -1,9 +1,9 @@
 package day06;
 
-
+//SingleTon 舉列雜貨店結帳
 //設計結帳方式 
 public class Checkout {
-	private static Checkout checkout;
+	private static Checkout checkout= new Checkout();
 	
 	
 	private Checkout() {

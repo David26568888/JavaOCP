@@ -1,5 +1,5 @@
 package day05;
-
+//電池
 public class Battery {
 	private String type;//AAAA, AAA, AA, A
 	private int price;

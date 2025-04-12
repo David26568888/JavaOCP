@@ -1,6 +1,6 @@
 package day06;
 
-
+//SingleTon 舉列雜貨店結帳
 //設計雜貨店
 public class CheckoutTest {
 

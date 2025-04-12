@@ -1,5 +1,5 @@
 package day05;
-
+//接送
 public class Transport {
 	private String name;
 	private int price;

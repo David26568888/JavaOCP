@@ -6,7 +6,8 @@ public class WrapperTest {
 		int a = 10;
 		Integer b = Integer.valueOf(10);
 		System.out.println(a);
-		System.out.println(b.intValue());
+		System.out.println(b);//與下列相比省略.intValue 其實JAVA會自己補
+		System.out.println(b.intValue());//印出外包類型比較正確的寫法
 		
 		// 得到 int 得最大值 ?
 		int max = Integer.MAX_VALUE;
@@ -16,7 +17,10 @@ public class WrapperTest {
 		int scoreB = 90;
 		int highScore = Integer.max(scoreA, scoreB);
 		System.out.println(highScore);
-		// -----------------------------------------
+		//-------------------------------------
+		//Integer or int 建立數字變數類型? 用哪一個好
+		//int比較快 Integer 可以判斷null
+		
 		// auto-boxing 自動裝箱
 		// Java 5.0 以前
 		Integer x1 = Integer.valueOf(10);
