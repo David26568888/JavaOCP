@@ -4,8 +4,6 @@ package day05;
 //設計民宿
 public class BedAndBreakfast {
 	public static void main(String[] args) {
-		
-	
 	//服務與餐點
 	Transport airport = new Transport("機場接送", 500);
 	Transport transtation = new Transport("高鐵接送", 200);
