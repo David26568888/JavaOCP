@@ -1,6 +1,6 @@
 package day09.case2;
 
-
+import java.util.Iterator;
 
 public class SnackStore {
 	public static void main(String[] args) {
@@ -17,7 +17,13 @@ public class SnackStore {
 			//在AbstractSnack 抽象類 補一個製作方法 減少重複呼叫
 		}
 		System.out.printf("總共%d元",sum);
-		//Snack[] snacks= {saltedChicken,tempura,tofu};
+		
+//		Snack[] snacks= {saltedChicken,tempura,tofu};
+//		for (Snack snack : snacks) {
+//			snack.***無法呼叫makeSnack()***
+//			
+//		}
+		
 	}
 	
 
